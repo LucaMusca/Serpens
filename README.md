@@ -1,45 +1,57 @@
-# Pitone
-python that speaks italian
+# Serpens
+python that speaks latin
 
 ## Description
-This project is a a fork of cpython (version 3.9) with added keywords. In particular, an italian translation of all the Python keywords is present.
+Ever wondered how programming languages would look like if they were developed during the Roman Empire?
+To answer this question, I created this fork of cpython (version 3.9) that understands the latin translations of  all the usual Python keywords.
 
 __Keywords__
 
-| and | e
+| and | et
 |:-------------:| :-----:|
-| as | come
-| assert | asserisci
-| break | interrompi
-| class | classe
+| as | qualis
+| assert | affirma
+| break | incide
+| class | classis
 | continue | continua
-| def | funzione
-| del | elimina
-| elif | invecese
-| else | altrimenti
-| except | eccezione
-| False | Falso
-| finally | finalmente
+| def | functio
+| del | dele
+| elif | aliterse
+| else | aliter
+| except | exceptio
+| False | Falsus
+| finally | deque
 | for | per
-| from | da
-| global | globale
+| from | ab
+| global | universalis
 | if | se
 | import | importa 
 | in | in
-| is | è
+| is | est
 | lambda | lambda 
-| None | Niente
-| nonlocal | nonlocale
+| None | Nihil
+| nonlocal | nonlocalis
 | not | non
-| or | o
-| pass | passa 
-| raise | solleva
-| return | restituisci
-| True | Vero
-| try | prova
-| while | mentre
-| with | con
-| yield | rendi
+| or | aut
+| pass | transi 
+| raise | leva
+| return | restitue
+| True | Verus
+| try | conere
+| while | dum
+| with | cum
+| yield | redde
 
 ## Installation
 Build the project as you would do with [cpython](https://github.com/python/cpython "The Python programming language").
+Or you can just run the 
+
+## Examples of usage
+Just use the keywords listed above as they were the usual python keywords.
+```Python
+importa numpy qualis np
+classis A:
+    functio __init__(self, x):
+          se x non est Nihil:
+              self.x = x
+```
