@@ -51,8 +51,11 @@ If you use another OS, download [cpython](https://github.com/python/cpython "The
 Just use the keywords listed above as they were the usual python keywords.
 ```Python
 importa numpy qualis np
-classis A:
-    functio __init__(self, x):
-          se x non est Nihil:
-              self.x = x
+functio is_null(x):
+    se x est Nihil:
+        restitue Verus
+    aliter:
+        restitue Falsus
+ is_null(Nihil)
+ >>> True
 ```
