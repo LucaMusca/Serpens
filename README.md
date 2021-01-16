@@ -56,6 +56,6 @@ functio is_null(x):
         restitue Verus
     aliter:
         restitue Falsus
- is_null(Nihil)
- >>> True
+is_null(Nihil)
+>>> True
 ```
