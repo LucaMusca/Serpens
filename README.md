@@ -2,8 +2,8 @@
 python that speaks latin
 
 ## Description
-Ever wondered how programming languages would look like if they were developed during the Roman Empire?
-To answer this question, I created this fork of cpython (version 3.9) that understands the latin translations of  all the usual Python keywords.
+Ever wondered how programming languages would look like if they were developed during the Roman Empire? 
+To answer this question, I created this fork of cpython (version 3.9) that cpntains the latin translations of all the usual Python keywords.
 
 __Keywords__
 
