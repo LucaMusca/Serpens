@@ -43,6 +43,8 @@ __Keywords__
 | with | cum
 | yield | redde
 
+A translation of `async` and `await` is not present because I couldn't implement it, for reasons I still don't understand.
+
 ## Installation
 If you use linux, just download the file `serpens` and run it in the linux terminal with the command `./serpens`.  
 If you use another OS, download [cpython](https://github.com/python/cpython "The Python programming language"), replace the `Grammar` folder with the one present in this repo and build the project following the [usual procedure](https://devguide.python.org/setup/ "Build cpython").
