@@ -8,8 +8,9 @@ The folder `Grammar` contains the modified grammar files (compare them with `Gra
 
 __Keywords__
 
-| and | et
+| Original | Latin
 |:-------------:| :-----:|
+| and | et
 | as | qualis
 | assert | affirma
 | break | incide
