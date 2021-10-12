@@ -6,6 +6,19 @@ Ever wondered how programming languages would look like if they were developed d
 To answer this question, I created this fork of cpython (version 3.9) that contains the latin translations of all the usual Python keywords.  
 The folder `Grammar` contains the modified grammar files (compare them with `Grammar` in [cpython](https://github.com/python/cpython "The Python programming language")) that make this possible.
 
+## Example of usage
+Just use the keywords listed below as they were the usual python keywords.
+```Python
+importa numpy qualis np
+functio is_null(x):
+    se x est Nihil:
+        restitue Verus
+    aliter:
+        restitue Falsus
+        
+is_null(Nihil)
+>>> True
+```
 __Keywords__
 
 | Original | Latin
@@ -44,22 +57,10 @@ __Keywords__
 | with | cum
 | yield | redde
 
-A translation of `async` and `await` is not present because I couldn't implement it, for reasons I still don't understand.
+A translation of `async` and `await` is not present because I couldn't implement it, for reasons that go beyond my poor understanding of the Python parser.
 
 ## Installation
 If you use linux, just download the file `serpens` and run it in the linux terminal with the command `./serpens`.  
 If you use another OS, download [cpython](https://github.com/python/cpython "The Python programming language"), replace the `Grammar` folder with the one present in this repo and build the project following the [usual procedure](https://devguide.python.org/setup/ "Build cpython").
 
-## Examples of usage
-Just use the keywords listed above as they were the usual python keywords.
-```Python
-importa numpy qualis np
-functio is_null(x):
-    se x est Nihil:
-        restitue Verus
-    aliter:
-        restitue Falsus
-        
-is_null(Nihil)
->>> True
-```
+
